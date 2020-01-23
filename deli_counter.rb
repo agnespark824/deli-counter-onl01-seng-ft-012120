@@ -29,4 +29,7 @@ end
   
 def now_serving(array)
   if array.empty? 
-    puts "The "
+    puts "The line is currently empty."
+  else
+    puts "Currently serving #{array[0]}."
+    
