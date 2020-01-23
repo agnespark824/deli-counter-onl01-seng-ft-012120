@@ -1,7 +1,8 @@
 array = ["Ana", "Bob", "Cat"]
 
-def take_a_number(array_one, name)
-  array_one << name
+def take_a_number(array, name)
+  array << name
   puts "Welcome, #{name}. You are number #{array_one.index(name) + 1} in line."
 end
 
+take_a_number(array, "Dave")
