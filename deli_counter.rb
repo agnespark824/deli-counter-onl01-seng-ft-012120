@@ -12,7 +12,7 @@ def line(katz_array)
   #make a fourth array that includes numbers and names
     fourth_array= []
     counter = 0
-    while counter > katz_array.size do
+    while counter < katz_array.size do
       fourth_array << third_array[counter]
       fourth_array << katz_array[counter]
       counter += 1
