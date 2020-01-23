@@ -18,7 +18,7 @@ def line(katz_array)
       counter += 1
     end
   #join elements in fourth array to make a phrase
-    puts "This line is currently: " + fourth_array.join(" ")
+    puts "The line is currently: " + fourth_array.join(" ")
   end
 end
      
