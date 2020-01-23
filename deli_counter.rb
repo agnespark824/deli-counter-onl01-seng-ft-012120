@@ -21,6 +21,7 @@ def line(katz_array)
     puts "The line is currently: " + fourth_array.join(" ")
   end
 end
-     
+
+
   
 
